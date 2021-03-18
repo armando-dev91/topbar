@@ -45,7 +45,14 @@ body {
     display: inline-block;
     width: 14px;
     height: 14px;
-    margin-right: 8px;
+    margin-right: .5em;
+}
+
+.icon {
+    width: 14px; 
+    height: 14px;
+    margin-right: .5em;
+    color: #222627;
 }
 
 .topbar ul {
@@ -107,5 +114,9 @@ body {
 
     .topbar .topbar_link ul li:last-child {
         margin-left: 0;
+    }
+
+    .icon.envelop {
+        color: #fff;
     }
 }
